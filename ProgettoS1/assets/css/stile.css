@@ -1,0 +1,133 @@
+/*--------------------GENERALE------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap');
+header{
+    background-color: black;
+    text-align: center;
+    padding: 5%;
+}
+body{
+  color: #393d41;
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+h3{
+    font-family: 'Montserrat', bold;
+    color: #25a2c3;
+    line-height: 1.5;
+    
+}
+/*---------------------MAIN-------------------*/
+main{
+    text-align: center;
+}
+main div{
+    padding: 10%;
+    border: 1px solid #dee1e3;
+    box-sizing: border-box;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: contain ;
+}
+main div p{
+    margin-bottom: 30px;
+}
+main h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', bold;
+    font-size:xx-large;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+main a{
+    text-transform: uppercase;
+    padding:2%;
+    margin-top: 20px;
+    text-decoration: none;
+    border:#f04c2f ;
+    font-family: 'Montserrat', bold;
+    border-radius: 5%;
+    background-color: #f04c2f;
+    color: #FFFFFF;
+}
+main section{
+    margin-top: -30px;
+    margin-bottom: -30px;
+    padding: 10%;
+    border: 1px solid #dee1e3;
+
+}
+main section img{
+    max-width: 50vh;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+main section p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/*---------------------ASIDE-------------------*/
+aside{
+    text-align: center;
+
+}
+#testimonianza{
+    background-color:#e22d0e ;
+    padding: 10%;
+    color:#FFFFFF;
+}
+aside div h1{
+    font-family: 'Montserrat', bold;
+    font-size:xx-large;
+    
+    margin-bottom: 5%;
+}
+blockquote{
+    font-style: italic;
+    margin-bottom: 5%;
+}
+span{
+    font-size:small;
+}
+aside section div{
+    padding:5%;
+    border: 1px solid #dee1e3;
+    
+
+
+}
+aside p{
+    margin-top: 2%;
+}
+aside section img{
+    max-width: 50vh;
+    margin-bottom: 2%;
+}
+/*--------------FOOTER-----------------*/
+footer{
+    padding: 5%;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #25a2c3; 
+}
+
+footer h1{
+    font-family: 'Montserrat', bold;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+footer h5{
+    font-size: small;
+}
+footer a{
+    
+    color: #FFFFFF;
+}
+hr{
+    margin-bottom: 20px;
+    color:#FFFFFF;
+    width: 300px;
+}
